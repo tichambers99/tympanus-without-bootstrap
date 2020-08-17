@@ -1,0 +1,149 @@
+.container {
+    background-color: #f9f9f9;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .header {
+    background-color: #FFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px 20px;
+    max-height: 30px;
+}
+
+.header .home { 
+    color: #138743;
+    font-size: 25px;
+} 
+
+.header .about{
+    text-align: right;
+}
+
+.about a{
+    color: #138743;
+    font-size: 25px;
+    transition: all 0.4s;
+}
+
+.logo-sns{
+    padding-right: 10px;
+}
+
+.logo-sns:hover{
+    color: #463bda;
+}
+
+.home:hover{
+    color: #463bda;
+}
+
+.title{
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    background-color: #e3e6e9; 
+    color: #b3b9bf;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title .title-hover{
+    font-size: 45px;
+    text-align: center;
+    padding: 20px 20px;
+
+}
+
+.title .bar{
+    display: inline;
+    font-size: 16px;
+} 
+
+.bar .effect-list{
+    display: inline;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.effect-list .effect{
+    display: inline-block;
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    border-width: 3px;
+    font-weight:  bold;
+}
+
+.effect:hover{
+    border-color: rgb(17, 15, 15);
+    color: rgb(17, 15, 15);
+}
+
+.content .content-effect-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.content .image1{
+    background-image: url(images/khanh.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+
+.content .image2{
+    border-radius: 10px;
+    background-image: url(images/nga.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+
+.layout{
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(199, 103, 39);
+    text-align: center;
+    height: 100%;
+    transition:  0.5s;
+    opacity: 0;
+}
+
+.layout .caption{
+    padding-top: 40px;
+}
+
+.caption div{
+    font-weight: bold;
+    color: #FFF
+}
+
+.caption a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s;
+}
+a:hover{
+    color: #FFF
+}
+
+.image1:hover .layout,.image2:hover .layout{
+    transform: translate(20px, 20px);
+    opacity: 1;
+}
+
+.style-1{
+    text-align: center;
+    margin-right: 20px;
+}
+
+.style-2{
+    margin-left: 20px;
+}
